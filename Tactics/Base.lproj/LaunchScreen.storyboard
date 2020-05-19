@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="friz-quadrata-regular.ttf">
+            <string>FrizQua-ReguOS</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ntu-om-h3c">
+                                <rect key="frame" x="0.0" y="0.0" width="424" height="979"/>
+                                <color key="backgroundColor" red="0.086274509799999996" green="0.090196078430000007" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="979" id="hCR-Th-Bti"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tftlogo" translatesAutoresizingMaskIntoConstraints="NO" id="Rg2-tZ-K1u">
+                                <rect key="frame" x="92" y="246" width="240" height="128"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tftlogo3" translatesAutoresizingMaskIntoConstraints="NO" id="j36-nw-7YI">
+                                <rect key="frame" x="92" y="313" width="240" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r5S-P9-uR7">
+                                <rect key="frame" x="92" y="399" width="256" height="136"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="136" id="omf-Wh-XPx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FrizQua-ReguOS" family="Friz Quadrata" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Ntu-om-h3c" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0N3-Tv-n25"/>
+                            <constraint firstItem="Rg2-tZ-K1u" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="202" id="0s2-OS-55K"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Rg2-tZ-K1u" secondAttribute="trailing" constant="82" id="1uP-Vr-phw"/>
+                            <constraint firstItem="j36-nw-7YI" firstAttribute="leading" secondItem="r5S-P9-uR7" secondAttribute="leading" id="384-LG-D39"/>
+                            <constraint firstItem="j36-nw-7YI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="269" id="7PZ-g2-Jwb"/>
+                            <constraint firstItem="r5S-P9-uR7" firstAttribute="top" secondItem="Rg2-tZ-K1u" secondAttribute="bottom" constant="25" id="CZ9-LN-ael"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="r5S-P9-uR7" secondAttribute="trailing" constant="66" id="OXF-Vz-ioE"/>
+                            <constraint firstItem="j36-nw-7YI" firstAttribute="leading" secondItem="Rg2-tZ-K1u" secondAttribute="leading" id="Sj5-lv-8bS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="j36-nw-7YI" secondAttribute="bottom" constant="421" id="bdF-w1-VGh"/>
+                            <constraint firstItem="j36-nw-7YI" firstAttribute="trailing" secondItem="Rg2-tZ-K1u" secondAttribute="trailing" id="cFj-rY-xw6"/>
+                            <constraint firstItem="Ntu-om-h3c" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="-44" id="ca7-m8-d1w"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="r5S-P9-uR7" secondAttribute="bottom" constant="327" id="cdQ-V8-pgk"/>
+                            <constraint firstItem="Rg2-tZ-K1u" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="92" id="jvM-cF-rhs"/>
+                            <constraint firstItem="Rg2-tZ-K1u" firstAttribute="centerX" secondItem="Ntu-om-h3c" secondAttribute="centerX" id="tXB-fV-hV3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tftlogo" width="256" height="256"/>
+        <image name="tftlogo3" width="1411" height="734"/>
+    </resources>
+</document>
